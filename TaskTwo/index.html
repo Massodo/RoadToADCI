@@ -5,28 +5,30 @@
 		<title>TaskTwo</title>
 		<meta charset="utf-8">
 		<link href = "style.css" type="text/css" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	</head>
 	
 	<body>
-		<section class ="active">
+		<section class ="active" id = "step-1">
 			<input type="text" name="name" placeholder="Please enter your name.">
 		</section>
 		
-		<section class ="not-active">
+		<section class ="not-active" id = "step-2">
 			<input type="text" name="surname" placeholder="Please enter your surname.">
 		</section>
 		
-		<section class ="not-active">
+		<section class ="not-active" id = "step-3">
 			<input type="email" name="email" placeholder="Please enter your e-mail">
 		</section>
 		
-		<section class ="not-active">
+		<section class ="not-active" id = "step-4">
 			<p> Thanks! </p>
 		</section>
 		
 		<section>
-			<button class="btn">Next</button>
-			<button class="btn">Back</button>
+			<button class="btn-Back" id = "btnBack">Back</button>
+			<button class="btn-Next" id = "btnNext">Next</button>			
 		</section>
-	</body>
+		<script src = "main.js"></script>
+	</body>	
 </html>

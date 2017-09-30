@@ -11,3 +11,12 @@
 	width: 160px;
 	float: left;
 }
+
+footer{
+	width: 100%;
+}
+
+section{
+	    display: inline-block;
+		width: 100%;
+}

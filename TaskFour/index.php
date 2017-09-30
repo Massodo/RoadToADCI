@@ -33,11 +33,7 @@ function selectWinner($userIdArray , $count){
 									
 }
 function test(){	
-	print_r(selectWinner(generateId(10) , 9));	
+	print_r(selectWinner(generateId(1000) , 50));	
 }
-<<<<<<< HEAD
-test();
-=======
 
 test();
->>>>>>> aae26d3f049ca4e0c636e139a15110fba1a59659
